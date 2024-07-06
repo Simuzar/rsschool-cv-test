@@ -1,14 +1,128 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CV-Fatullazade S</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CV-Fatullazade S</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <a href="#about" id="nav-about">About me</a>
+        <a href="#skills" id="nav-skills">Skills</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div id="name-block">
+          <img
+            src="images/63f3708a-7b23-4c5b-8efc-a973df6a9869.jpg"
+            alt="Avatar"
+            id="avatar"
+          />
+          <div id="name">
+            <h1>Fatullazade Simuzar</h1>
+            <h3>Front-end Developer</h3>
+          </div>
+        </div>
+        <div id="about-block">
+          <h2>About me</h2>
+          <p>
+            I am a professional linguist with experience working as a QA
+            specialist in the field of translations. Currently I am studying web
+            development. Having completed several courses on Codecademy (basic
+            JavaScript, HTML and CSS), I enrolled in RS-School courses to
+            further consolidate my knowledge, fill any gaps I have, and deepen
+            my understanding of web development technologies.
+          </p>
+          <p>
+            Although I don't have experience working on IT projects yet, I aim
+            to leverage my analytical skills to excel in the world of frontend
+            development. My goal is to become a sought-after specialist in
+            front-end development, creating high-quality and intuitive web
+            interfaces.
+          </p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="skills-block">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5, CSS3, JavaScript basics</li>
+            <li>Git, GitHub,VSCode</li>
+            <li>React basics</li>
+            <li>SQL basics</li>
+          </ul>
+        </div>
+        <div class="skills-block">
+          <h2>Code example</h2>
+          <pre>
+   function inMySillyEra () {
+    if(true) {console.log(`⠀⠀⠀
+        
+        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡤⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠤⠤⡄⠀
+⠀⠀⠀⠀⢸⠀⠀⠀⠀⠉⠑⠲⣄⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡴⠒⠒⠚⠉⠉⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠉⠋⠁⠀⠀⠀⠀⠀⠀⠁⠉⠉⠀⠀⠀⠀⠀⠀⠀⢐⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢫⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⣧⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠄⠀⠀⠀⠀⠀⠀⡏⠁⠀⢀⡄⠀⠀⣝⠀⠀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠑⠒⡏⠁⠙⡤⠞⠀⠀⠀⠀⠀⠀⠀⡌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣄⠀⠀⠀⠀⠀⠀⡇⡤⠇⠀⠀⠀⠀⠀⣠⠎⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠭⠒⠦⣄⡀⠈⠁⠀⠀⠀⢀⡔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠖⠁⠀⠀⠀⠀⠀⠀⠁⠉⠉⠉⠁⠱⠤⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⣀⣀⣠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠈⡹⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢠⠃⠈⠓⡆⠀⢀⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠂⠤⠴⠋⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    `)} else {
+    console.log(`⁺˚⋆｡°✩₊✩°｡⋆˚⁺`)
+    }}
 
-    </head>
-    <body>
-        <h1>CV</h1>
-    </body>
+    inMySillyEra()
+                    </pre
+          >
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li>E-mail: fatullazade96@gmail.com</li>
+          <li>Telegram: @janelame</li>
+          <li>Discord: sima_40069</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-item">
+        <a href="https://rs.school/courses/javascript-ru">
+          <img
+            src="images/rs-school-logo.svg"
+            alt="RS-School logo"
+            id="rs-logo"
+          />
+        </a>
+      </div>
+      <div class="footer-item">
+        <h3>2024</h3>
+      </div>
+
+      <div class="footer-item">
+        <a href="https://github.com/Simuzar"
+          ><img src="images/github-mark.svg" alt="GitHub logo" id="gh-logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
