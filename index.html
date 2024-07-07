@@ -13,28 +13,26 @@
     <header>
       <nav class="nav-bar">
         <a href="#about" id="nav-about">About me</a>
-        <a href="#skills" id="nav-skills">Skills</a>
         <a href="#contact" id="nav-contact">Contact</a>
+        <a href="#skills" id="nav-skills">Skills</a>
       </nav>
     </header>
     <main>
       <section id="about">
-        <div id="name-block">
-          <img
+          <div class="about-block">
+            <img
             src="images/63f3708a-7b23-4c5b-8efc-a973df6a9869.jpg"
             alt="Avatar"
             id="avatar"
           />
-          <div id="name">
-            <h1>Fatullazade Simuzar</h1>
+            <h1>Fatullazade<br>Simuzar</h1>
             <h3>Front-end Developer</h3>
           </div>
-        </div>
-        <div id="about-block">
+          <div class="about-block">
           <h2>About me</h2>
           <p>
             I am a professional linguist with experience working as a QA
-            specialist in the field of translations. Currently I am studying web
+            specialist in the field of translations. Currently, I am studying web
             development. Having completed several courses on Codecademy (basic
             JavaScript, HTML and CSS), I enrolled in RS-School courses to
             further consolidate my knowledge, fill any gaps I have, and deepen
@@ -47,6 +45,16 @@
             front-end development, creating high-quality and intuitive web
             interfaces.
           </p>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-block">
+          <h2>Contact</h2>
+        <ul>
+          <li>E-mail: fatullazade96@gmail.com</li>
+          <li>Telegram: @janelame</li>
+          <li>Discord: sima_40069</li>
+        </ul>
         </div>
       </section>
       <section id="skills">
@@ -63,31 +71,12 @@
           <h2>Code example</h2>
           <pre>
    function inMySillyEra () {
-    if(true) {console.log(`⠀⠀⠀
-        
-        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⢀⡤⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠤⠤⡄⠀
-⠀⠀⠀⠀⢸⠀⠀⠀⠀⠉⠑⠲⣄⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡴⠒⠒⠚⠉⠉⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠉⠋⠁⠀⠀⠀⠀⠀⠀⠁⠉⠉⠀⠀⠀⠀⠀⠀⠀⢐⠁⠀⠀⠀
-⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠹⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⢫⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀⣧⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠄⠀⠀⠀⠀⠀⠀⡏⠁⠀⢀⡄⠀⠀⣝⠀⠀⠀⠀⠀⠀⠀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠀⠀⠀⠀⠑⠒⡏⠁⠙⡤⠞⠀⠀⠀⠀⠀⠀⠀⡌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣄⠀⠀⠀⠀⠀⠀⡇⡤⠇⠀⠀⠀⠀⠀⣠⠎⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠭⠒⠦⣄⡀⠈⠁⠀⠀⠀⢀⡔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠖⠁⠀⠀⠀⠀⠀⠀⠁⠉⠉⠉⠁⠱⠤⠤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⣀⣀⣠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠈⡹⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⢠⠃⠈⠓⡆⠀⢀⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠂⠤⠴⠋⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    if(true) {console.log(`
+      ٩(◕‿◕｡)۶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     `)} else {
-    console.log(`⁺˚⋆｡°✩₊✩°｡⋆˚⁺`)
+    console.log(`
+    ⁺˚⋆｡°✩₊✩°｡⋆˚⁺
+    `)
     }}
 
     inMySillyEra()
@@ -95,34 +84,26 @@
           >
         </div>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-          <li>E-mail: fatullazade96@gmail.com</li>
-          <li>Telegram: @janelame</li>
-          <li>Discord: sima_40069</li>
-        </ul>
-      </section>
+
     </main>
     <footer>
       <div class="footer-item">
         <a href="https://rs.school/courses/javascript-ru">
-          <img
-            src="images/rs-school-logo.svg"
-            alt="RS-School logo"
-            id="rs-logo"
-          />
-        </a>
+          <img src="images/rs-school-logo.png"
+            alt="RS-School logo" class="footer-image"
+          /></a>
       </div>
       <div class="footer-item">
         <h3>2024</h3>
       </div>
-
       <div class="footer-item">
         <a href="https://github.com/Simuzar"
-          ><img src="images/github-mark.svg" alt="GitHub logo" id="gh-logo"
+          ><img src="images/github-mark.svg" alt="GitHub logo" class="footer-image"
         /></a>
       </div>
     </footer>
   </body>
 </html>
+
+
+ 
