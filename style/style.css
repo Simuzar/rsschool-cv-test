@@ -1,25 +1,53 @@
+html {
+    scroll-padding-top: 70px;
+}
+
 body {
     display: block;
     margin: auto;
     overflow-x: hidden;
     width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+main {
+    height: 100%;
+    position: relative;
+}
+
+main::before {
+    content: '';
+    background-image: url('../images/bg-img.jpg');
+    position:absolute;
+    inset: 0;
+    opacity: 0.1;
 }
 
 .nav-bar {
     position: fixed;
-    display: inline-flex;
-    align-items: center;
-    flex-direction: row;
+    display: flex;
     width: 100%;
     height: 50px;
     justify-content: flex-end;
-    background-color: pink;
-    z-index: 5;
+    background-color: rgb(255, 192, 203);
+    z-index: 3;
+    font-weight: bold;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    
+}
+.nav-list li {
+    margin: 0;
 }
 
-#nav-about, #nav-skills, #nav-contact {
+#nav-about, 
+#nav-skills, 
+#nav-contact,
+#nav-languages {
     padding: 20px;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -30,12 +58,15 @@ body {
     padding-top: 80px;
     gap: 80px;
     justify-content: center;
+    align-items: center;
+    z-index: 2;
 }
 
 .about-block {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+    justify-content: center;
 }
 
 #avatar {
@@ -43,30 +74,27 @@ body {
     max-width: 150px;
     height: auto;
     position: relative;
+
 }
 
-#contact {
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    padding-top: 70px;
-    justify-content: center;
-    align-items: center;  
-}
-
-#contact-block {
-    display: flex;
-    flex-direction: column;
-}
-
-#contact h2 {
-    margin-top: 0;
+#second-block{
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
 }
 
 #contact ul {
-    padding: 0;
     list-style: none;
 }
+
+#contact-block,
+#languages-block {
+    display: flex;
+    flex-direction: column;
+}
+
 
 #skills {
     position: relative;
@@ -75,6 +103,7 @@ body {
     padding: 80px 100px;
     gap: 80px;
     justify-content: center;
+    z-index: 2;
 }
 
 .skills-block {
@@ -99,7 +128,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(255, 192, 203);
     padding: 10px 0px; 
     width: 100%;
  }
