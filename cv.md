@@ -1,6 +1,5 @@
 ###  rsschool-cv
 <br>
-<br>
 <img src="../rsschool-cv/images/63f3708a-7b23-4c5b-8efc-a973df6a9869.jpg" style="width:120px; height:120px;" /> 
 
 ## Simuzar Fatullazade
