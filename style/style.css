@@ -84,6 +84,10 @@ main {
   gap: 200px;
 }
 
+#profile-info h3 {
+  padding-bottom: 15px;
+}
+
 #img-container {
   display: flex;
   max-width: 300px;
