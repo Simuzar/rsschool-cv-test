@@ -8,11 +8,10 @@
 
 > #### Contact information:
 > 
->  Phone: +7 999 000 00 00  
+>  Phone: +7 999 000 00 00
 >  E-mail: 000000@gmail.com  
->  Telegram: @janelame  
->  Discord: sima_40069 
-
+>  Telegram: @janelame
+>  Discord: sima_40069
 
 #### About me
 
@@ -28,7 +27,7 @@ Although I don't have experience working on IT projects yet, I aim to leverage m
 - SQL basics
 
 #### Code example:
-#####Description:
+##### Description:
 Write a function that accepts a string, and returns the same string with all even indexed characters in each word upper cased, and all odd indexed characters in each word lower cased. The indexing just explained is zero based, so the zero-ith index is even, therefore that character should be upper cased and you need to start over for each word.
 
 ```javascript
@@ -53,11 +52,10 @@ function toWeirdCase(string){
 
 ```
 #### Projects:
-[Audio player](https://rolling-scopes-school.github.io/simuzar-JSFEPRESCHOOL2024Q2/audio-player/)
+[Audio Player](https://rolling-scopes-school.github.io/simuzar-JSFEPRESCHOOL2024Q2/audio-player/)
 
 #### Languages
 - Russian (native)
 - English (C1)
 - Turkish (B1)
-- Azeri (A2)
-- German (A2)
+- Azeri, German (A2)
